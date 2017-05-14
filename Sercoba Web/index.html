@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+    <script src="js/main.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,9 +15,9 @@
 
 <body>
 
-    <div id="wrapper" >
+    <div id="wrapper">
 
-        <nav >
+        <nav>
             <ul>
 
                 <li>Home</li>
@@ -35,79 +35,79 @@
     </div>
 
     <div class="container">
-    <section id="empresa" >
+        <section id="empresa">
             <div id="about-fotos">
-                <img id="img-about"  src="imgs/placeholder1.jpg" class="img-responsive img-rounded">
+                <img id="img-about" src="imgs/placeholder1.jpg" class="img-responsive img-rounded">
             </div>
 
             <div id="about-info">
 
-            <h1>Sobre la Empresa</h1>
-            <p>
+                <h1>Sobre la Empresa</h1>
+                <p>
 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c enturies, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five c enturies, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 
 
-            </p>
+                </p>
 
             </div>
-    </section>
+        </section>
     </div>
     <!-- Fin seccion Informacion  -->
 
 
-    <section id="gallery">
+    <section id="carrusel">
 
-    <div class="container">
-        <div class="col-md-12">
-            <div id="carousel-1" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-1" data-slide-to="1"></li>
-                    <li data-target="#carousel-1" data-slide-to="2"></li>
+        <div class="container">
+            <div class="col-md-12">
+                <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-1" data-slide-to="1"></li>
+                        <li data-target="#carousel-1" data-slide-to="2"></li>
 
-                </ol>
+                    </ol>
 
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active hidden-xs hidden-sm" >
-                        <img src="imgs/1.1.jpg" class="img-responsive" alt="">
-                        <div class="carousel-caption">
-                            <h3>Imagen 1</h3>
-                            <p>grupo completo</p>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active hidden-xs hidden-sm">
+                            <img src="imgs/1.1.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h3>Imagen 1</h3>
+                                <p>grupo completo</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item hidden-xs hidden-sm">
-                        <img src="imgs/2.2.jpg" class="img-responsive" alt="">
-                        <div class="carousel-caption">
-                            <h3>Imagen 2</h3>
-                            <p>Ana</p>
+                        <div class="item hidden-xs hidden-sm">
+                            <img src="imgs/2.2.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h3>Imagen 2</h3>
+                                <p>Ana</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item hidden-xs hidden-sm">
-                        <img src="imgs/3.3.jpg" class="img-responsive" alt="">
-                        <div class="carousel-caption">
-                            <h3>Imagen 3</h3>
-                            <p>Rica</p>
+                        <div class="item hidden-xs hidden-sm">
+                            <img src="imgs/3.3.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <h3>Imagen 3</h3>
+                                <p>Rica</p>
+                            </div>
                         </div>
+
+
                     </div>
-                    
-                    
                 </div>
-            </div>  
 
-            <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-            </a>
+                <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+
         </div>
-        
-    </div>
-        
+
 
 
 
@@ -141,6 +141,73 @@
 
         </ul>
 
+    </section>
+
+    <section id="gallery">
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 gal-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="">Proyecto</a>
+                    </h3>
+                    <p>Descripcion</p>
+                </div>
+                <div class="col-md-4 gal-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="">Proyecto</a>
+                    </h3>
+                    <p>Descripcion</p>
+                </div>
+                <div class="col-md-4 gal-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="">Proyecto</a>
+                    </h3>
+                    <p>Descripcion</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 gal-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="">Proyecto</a>
+                    </h3>
+                    <p>Descripcion</p>
+                </div>
+                <div class="col-md-4 gal-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="">Proyecto</a>
+                    </h3>
+                    <p>Descripcion</p>
+                </div>
+                <div class="col-md-4 gal-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="">Proyecto</a>
+                    </h3>
+                    <p>Descripcion</p>
+                </div>
+            </div>
+
+        </div>
 
 
     </section>

@@ -2,13 +2,12 @@ body {
     background: #fff;
     margin: auto;
     padding: 0;
-    
-
 }
 
-img{
+img {
     100%
 }
+
 #wrapper {
     display: inline-block;
     background: #4d4d4d;
@@ -47,7 +46,6 @@ nav li {
 nav li:hover {
     background: #fff;
     color: #4d4d4d;
-    
 }
 
 #banner {
@@ -59,6 +57,9 @@ nav li:hover {
     height: auto;
     padding: 0;
 }
+
+
+/********************INFO EMPRESA*******************/
 
 #empresa {
     display: inline-block;
@@ -75,7 +76,7 @@ nav li:hover {
     padding-left: 5%;
     background: #fff;
     float: left;
-    max-width:400px;
+    max-width: 400px;
 }
 
 #about-info {
@@ -86,7 +87,6 @@ nav li:hover {
     padding-right: 5%;
     float: right;
     text-align: justify;
-    
 }
 
 #img-about {
@@ -95,7 +95,10 @@ nav li:hover {
     object-fit: fill;
 }
 
-#gallery {
+
+/**********************CARRUSEL*********************/
+
+#carrusel {
     display: block;
     margin: auto;
     padding: 0;
@@ -103,21 +106,14 @@ nav li:hover {
     object-fit: fill;
 }
 
-#btn-gallery {}
-
-.btn_right {
-    float: right;
-}
-
-.btn-left {
-    float: left;
-}
-
-#img-gallery {
+#img-carrusel {
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
+
+
+/*****************PROYECTOS*****************/
 
 #proyectos {
     width: 100%;
@@ -153,6 +149,25 @@ nav li:hover {
     height: 200px;
     object-fit: fill;
 }
+
+
+/*****************GALERIA**********************/
+
+#gallery {
+    width: 100%;
+    height: auto;
+    background: #aaa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.gal-item {
+    padding-top: 25px;
+}
+
+
+/*******FOOTER**********************/
 
 #footer {
     background: #4d4d4d;
