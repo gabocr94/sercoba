@@ -16,7 +16,11 @@ img {
     margin: 5% 0 0 0;
     padding: 0;
 }
-
+ #logo_principal{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+ }
 nav {
     float: right;
     padding-right: 3%;
@@ -48,6 +52,9 @@ nav li:hover {
     color: #4d4d4d;
 }
 
+nav img{
+    float: left;
+}
 #banner {
     margin: 0;
     margin-top: 100px;
