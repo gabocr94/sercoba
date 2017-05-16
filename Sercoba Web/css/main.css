@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    100%
+    
 }
 
 #wrapper {
@@ -16,11 +16,22 @@ img {
     margin: 5% 0 0 0;
     padding: 0;
 }
+
+#wrapper img{
+    float: left;
+}
  #logo_principal{
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 30px;
  }
+ #menu{
+    margin-top: 3%;
+}
+
+
+
+/*
 nav {
     float: right;
     padding-right: 3%;
@@ -59,13 +70,12 @@ nav img{
     margin: 0;
     margin-top: 100px;
     background: #fff;
-    /*temporal*/
+  
     width: 100px;
     height: auto;
     padding: 0;
 }
-
-
+*/
 /********************INFO EMPRESA*******************/
 
 #empresa {

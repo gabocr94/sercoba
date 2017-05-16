@@ -241,6 +241,7 @@ th {
   .navbar {
     display: none;
   }
+  
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -4501,7 +4502,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #4d4d4d;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4597,7 +4598,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #4d4d4d;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
