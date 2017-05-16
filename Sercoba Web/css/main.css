@@ -4,9 +4,7 @@ body {
     padding: 0;
 }
 
-img {
-    
-}
+img {}
 
 #wrapper {
     display: inline-block;
@@ -17,18 +15,19 @@ img {
     padding: 0;
 }
 
-#wrapper img{
+#wrapper img {
     float: left;
 }
- #logo_principal{
+
+#logo_principal {
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 30px;
- }
- #menu{
-    margin-top: 3%;
 }
 
+#menu {
+    margin-top: 3%;
+}
 
 
 /*
@@ -76,19 +75,23 @@ nav img{
     padding: 0;
 }
 */
+
+
 /********************INFO EMPRESA*******************/
 
 #empresa {
     display: inline-block;
     width: 100%;
     height: auto;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 2%;
     text-align: center;
 }
-#empresa h1{
+
+#empresa h1 {
     text-align: center;
 }
+
 #about-fotos {
     width: 50%;
     height: 50%;
@@ -101,7 +104,6 @@ nav img{
 
 #about-info {
     width: 90%;
-    
     margin: 0;
     padding-top: 0;
     padding-right: 5%;
@@ -163,7 +165,7 @@ nav img{
     text-align: center;
 }
 
-#proyectos li p{
+#proyectos li p {
     margin-top: 20px;
     text-align: justify;
 }
@@ -192,10 +194,32 @@ nav img{
 }
 
 
+/*****************CONTACTO*********************/
+
+#contact {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background: #2E2E2E;
+    color: #fff;
+    padding-bottom: 10%;
+}
+
+.cnt-div {
+    padding-top: 15%;
+    margin: 0;
+}
+
+.cnt-div h2 {
+    padding-bottom: 3%;
+}
+
+
 /*******FOOTER**********************/
 
 #footer {
-    background: #4d4d4d;
+    background: #2E2E2E;
     width: 100%;
     height: auto;
     margin: 0;
@@ -203,31 +227,30 @@ nav img{
     padding-left: 20px;
 }
 
-#link_footer{
+#link_footer {
     margin-top: 30px;
 }
-#footer p {
 
+#footer p {
     margin-bottom: 20px;
     padding-left: 40px;
     color: #fff;
-    
 }
 
-#logo_blanco{
+#logo_blanco {
     width: 170px;
     height: 120px;
     padding-left: 40px;
 }
 
-#iconos{
+#iconos {
     margin-bottom: 0;
     width: 80%;
     padding-bottom: 0;
     padding-top: 15%;
-}  
+}
 
-#iconos img{
+#iconos img {
     width: 57%;
     height: 7%;
 }
@@ -253,4 +276,5 @@ nav img{
 #social img {
     width: 30px;
     height: 30px;
+    ++++++++++
 }
